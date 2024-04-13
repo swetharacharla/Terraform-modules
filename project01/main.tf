@@ -102,3 +102,5 @@ resource "azurerm_key_vault" "prod-key-vault" {
   tenant_id = "1da97bf4-3fd5-466a-b5df-9079683ee507"
   
 }
+
+

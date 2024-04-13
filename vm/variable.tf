@@ -1,8 +1,8 @@
-variable "vm-01" {
-  description = "name of the virtual machine"
-  type        = string
-  default     = "prod-dt-vm"
-}
+# variable "vm-01" {
+#   description = "name of the virtual machine"
+#   type        = string
+#   default     = "prod-dt-vm"
+# }
 
 variable "rg-01" {
   description = "name of the resource group"
@@ -39,4 +39,9 @@ variable "vnet-01" {
   description = "name of the virtual network"
   type        = string
   default     = "prod-dt-vn"
+}
+
+variable "vm_config" {
+  type = list
+  
 }
