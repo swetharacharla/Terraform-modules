@@ -15,3 +15,8 @@ variable "sql-db" {
   description = "name"
   default = "prod-sql-db"
 }
+
+variable "sqlserrver_config" {
+  type = list 
+  
+}

@@ -8,3 +8,6 @@ variable "rg_01" {
   type        = string
   default     = "prod-deployment-team0"
 }
+variable "storage_config" {
+ type = list  
+}
